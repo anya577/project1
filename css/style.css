@@ -14,10 +14,16 @@ header{
 header nav{
     width: 544;
 }    
- header nav li{
+ /* header nav li{
      float: left;
      margin-right: 20px;
- }   
+ }    */
+ .headernav ul{
+     width: 544px;
+     display: flex;
+     justify-content: space-evenly;
+
+ }
 header nav li a{
     color: #000000;
     font-size: 18px;
